@@ -1,7 +1,16 @@
 '''
-#1 Once we declare the string we cannot modify, 
+1. Once we declare the string we cannot modify, 
 if we try to modify the string it will create new string
-#2 If new string does not have any refernce variable then it will be remove
+
+2. If new string does not have any refernce variable then it will be remove
+
+3. python internally uses string Interning
+
+4. String interning is the process of checking string intern poll before creating any new object
+
+5. when ever we want to create new object, python first will check intern intern poll, weather that object already  exist or not.
+
+6. when Object already exist in the string intern records then address of existing objuct will be resued.
 '''
 #s1 = 'Kodnest'
 #s2 = s1.upper()
